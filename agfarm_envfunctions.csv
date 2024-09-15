@@ -1,0 +1,6 @@
+ID,trigger,neighborhood?,neighborhoodSize,direction?,xOffset,yOffset,effectSize,effectVar,phases
+1,land_prep_high,TRUE,0,FALSE,0,0,-1,soil_fert,1
+2,land_prep_2wt,TRUE,0,FALSE,0,0,-1,soil_fert,1
+3,graze_animals,TRUE,0,FALSE,0,0,1,soil_fert,1
+4,land_prep_low,TRUE,0,FALSE,0,0,1,soil_fert,1
+5,acacia,TRUE,1,FALSE,0,0,1,soil_fert,1

@@ -1,0 +1,14 @@
+fID,activity_ids,named_as_vars,function_rhs,function_lhs,add_replace,phases
+highYieldFn,8 10 12 14 15 16,b d f g h i,(ifelse-value (b > 0 or g > 0) and (d > 0 or h > 0) and (f > 0 or i > 0) [yield_high] [0]),patch_yield,add,3
+lowYieldFn,7 8 9 10 11 12 14 15 16,a b c d k f g h i,((ifelse-value ( a > 0 or b > 0 or g > 0) and (c > 0 or d > 0 or h > 0) and (k > 0 or f > 0 or i > 0) [1][0]) -  (ifelse-value (b > 0 or g > 0) and (d > 0 or h > 0) and (f > 0 or i > 0)  [1][0])) * yield_low,patch_yield,add,3
+clear7,7,a,0,7,replace,3
+clear8,8,b,0,8,replace,3
+clear9,9,c,0,9,replace,3
+clear10,10,d,0,10,replace,3
+clear11,11,k,0,11,replace,3
+clear12,12,f,0,12,replace,3
+clear14,14,g,0,14,replace,3
+clear15,15,h,0,15,replace,3
+clear16,16,i,0,16,replace,3
+grazeFn,17,j,(ifelse-value (j > 0) [graze_yield][0]),patch_yield,add,1 2 3
+clear17,17,j,0,17,replace,1 2 3

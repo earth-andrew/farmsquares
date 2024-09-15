@@ -1,0 +1,2 @@
+ID,effectVar,valueMin,valueMax,valueDefault,displayType,displayLoc,displayColor
+1,soil_fert,0,3,2,number,UR,white

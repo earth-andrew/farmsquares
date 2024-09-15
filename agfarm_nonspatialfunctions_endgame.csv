@@ -1,0 +1,5 @@
+fID,activity_ids,named_as_vars,function_rhs,function_lhs,add_replace
+payVSLA,3,x,( - x),playerResources,add
+payLender,4,x,( - x),playerResources,add
+clearVSLA,3,x,0,3,replace
+clearLender,4,x,0,4,replace

@@ -1,0 +1,3 @@
+fID,activity_ids,named_as_vars,function_rhs,function_lhs,add_replace,phase_calculated
+vslaInterestFn,3,x,round ( x * (1 + vsla_int_rate)),3,replace,1 2 3
+lenderInterestFn,4,x,round ( x * (1 + lender_int_rate)),4,replace,1 2 3
