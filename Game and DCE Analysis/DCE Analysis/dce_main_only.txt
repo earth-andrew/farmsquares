@@ -1,0 +1,17 @@
+	(1)	(2)	(3)	(4)
+VARIABLES	Pre	Pre	Post	Post
+				
+Mean				
+cons_frac	2.499***	2.535***	2.354***	2.107***
+earnings_scale	21.26*	36.29***	22.05*	58.18***
+bad_earnings_scale	26.10***	-21.64***	18.63*	-17.53***
+time_self	-0.0364	4.463***	-0.160	1.736
+time_share	0.650	3.947***	1.520*	2.160**
+earnings_share	3.004	-15.80	3.775	2.831
+bad_share	-31.21	-2.687	-33.43	-20.53
+earning_gap	0.743***	0.394*	1.620***	1.844***
+SD				
+				
+Observations	1,920	1,920	1,920	1,920
+Standard errors in parentheses				
+*** p<0.01, ** p<0.05, * p<0.1				
